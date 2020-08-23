@@ -1,5 +1,3 @@
-# D-n-u-ti-n
+# First-project
 Hi vọng thành công
-nghĩ ló chán
-Mãi không hiểu
-bực
+
