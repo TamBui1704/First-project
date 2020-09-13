@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            bai6
+        </title>
+    </head>
+    <body>
+       <form>
+           Nhập vào 1 số :<input type="text" id="number">
+       </form>
+       <button onclick="hien()">Xác nhận</button>
+       <script>
+           function hien(){
+               var num=document.getElementById("number").value;
+               switch(num)
+               {
+                   case "1":
+                       window.open("https://quantrimang.com");
+                        break;
+                    case "2":
+                        window.open("https://download.com.vn");
+                        break;
+                     default:
+                         window.open("https://meta.vn")   ;
+               }
+           }
+       </script>
+    </body>
+</html>

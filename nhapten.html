@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            bài 1
+        </title>
+        <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <form>
+            <label>
+                Nhập tên :
+            </label>
+            <input type="text" id="name" placeholder="Nhập họ tên">
+        </form>
+        <form>
+            <label>
+                Nhập tuổi:
+            </label>
+            <input type="text" id="age" placeholder="Nhập tuổi" >
+        </form>
+        <button>Xác nhận</button>
+        <p>
+            Thông tin:
+            <br /> Tên:<b> <span id="ten"></span></b>
+            <br />Tuổi:<u><span id="tuoi"></span></u>
+        </p>
+       
+        <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+                var ten=$("#name").val()
+                var tuoi=$("#age").val();
+                document.getElementById("ten").innerHTML=ten;
+                document.getElementById("tuoi").innerHTML=tuoi;
+            })
+                
+            }
+            )
+          
+
+        </script>
+    </body>
+</html>
